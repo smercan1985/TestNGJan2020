@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Hub Spot Test Sanity Suite]">
+  <listeners>
+    <listener class-name="com.hubspot.listeners.TestAllureListener"/>
+    <listener class-name="com.hubspot.listeners.ExtentReportListener"/>
+  </listeners>
+  <test name="hub spot Sanity Test">
+    <classes>
+      <class name="com.hubspot.tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- hub spot Sanity Test -->
+</suite> <!-- Failed suite [Hub Spot Test Sanity Suite] -->
